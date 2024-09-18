@@ -49,11 +49,11 @@ function calcformCalculate() {
     const factor = Number((LOCAL_FACTOR * GLOBAL_FACTOR).toFixed(5));
 
     if (!(validateNumber(length) && validateNumber(width) && validateNumber(quantity))) {
-        AlertMSG('Please enter valid numbers for length, width, and quantity.');
+        AlertMSG('Voer geldige cijfers in voor alle afmetingen en aantallen.');
         return;
     }
-    if (quantity < 1 || quantity >= 1001) {
-        AlertMSG('The price for less than 1 or 1000 or more plates cannot be calculated online. Please request a quote.');
+    if (quantity < 10 || quantity >= 1001) {
+        AlertMSG('De prijs voor minder dan 10 of meer dan 1.000 dozen kunnen wij niet online berekenen. Neem contact met ons op om hier een offerte voor te ontvangen.');
         return;
     }
 
