@@ -1,6 +1,6 @@
 // Pricing Variables
 const VAT_RATE = 21;
-const GLOBAL_FACTOR = 1.12;
+const GLOBAL_FACTOR = 1.05;
 const LOCAL_FACTOR = 1;
 const BASE_SURCHARGE = 0.12;
 const QUANTITY_SURCHARGE = 25;
